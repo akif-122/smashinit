@@ -161,19 +161,21 @@
             padding-left: 15px;
             padding-right: 15px;
             padding-bottom: 10px;
+            padding-bottom: 20px;
         }
 
         .food-content .food-title {
             font-size: 18px;
             height: auto !important;
-            padding-bottom: 0px !important;
+            /* padding-bottom: 0px !important; */
             font-weight: 600;
             font-family: "Poppins", sans-serif;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            margin-bottom: 5px
-
+            margin-bottom: 5px;
+            padding: 5px 0;
+            
         }
 
         .food-content .price {
@@ -265,8 +267,8 @@
             }
 
             .food-content {
-                padding-left: 5px !important;
-                padding-right: 5px !important;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
                 padding-top: 25px !important;
             }
 
@@ -283,14 +285,14 @@
                 line-height: 1.3;
                 height: auto !important;
                 padding-bottom: 1px;
-                font-size: 18px;
+                font-size: 14px;
             }
 
             .food-content p,
             .food-content p span {
                 line-height: 1.5 !important;
                 margin-top: 10px;
-                font-size: 13px !important;
+                font-size: 12px !important;
             }
 
             .add-to-order-btn {
@@ -472,6 +474,11 @@
             .product-modal .modal-body .food-image {
                 height: 280px !important;
             }
+
+            .food-menu-wrapper ul li a{
+                font-size: 12px;
+            }
+            
         }
 
         /* STATUS CHECK */
@@ -532,6 +539,11 @@
             .food-list-top h3 {
                 font-size: 14px;
             }
+
+                .food-content .food-title{
+                    padding-top: 0;
+                    padding-bottom: 5px;
+                }
 
         }
 
@@ -721,7 +733,7 @@
                                         </div>
 
 
-                                        <div class="col-6 col-md-4 col-lg-6 col-xl-4 mb-4 px-1 px-lg-3">
+                                        <div class="col-6 col-md-4 col-lg-6 col-xl-4 mb-3 mb-md-4 px-2 px-lg-3">
                                             <div class="vs-food-box h-100">
                                                 <div class="food-image image-scale-hover">
                                                     @if (count($item->extras()))

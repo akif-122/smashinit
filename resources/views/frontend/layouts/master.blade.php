@@ -2,7 +2,11 @@
 <html class="no-js" lang="en">
     @include('frontend.includes.head')
     @yield('styles')
-
+    <style>
+        .dark-footer .widget_nav_menu a:before{
+            display: none;
+        }
+    </style>
 <body>
 
     @include('frontend.includes.header')
