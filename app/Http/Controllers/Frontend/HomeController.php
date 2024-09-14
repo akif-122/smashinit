@@ -552,7 +552,7 @@ class HomeController extends Controller
         
        Stripe::setApiKey('sk_test_DHz9kzImzMWJ3Et1xmdgx7I4');
             
-            $YOUR_DOMAIN = 'http://127.0.0.1:8000/'; // Change the domain to match your application
+            $YOUR_DOMAIN = 'https://smashinit.co.uk/'; // Change the domain to match your application
               $lineItems = [];
             
                
