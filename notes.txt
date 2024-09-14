@@ -1,0 +1,26 @@
+We'll have 3 Types of Users
+Admin
+Staff
+Customer
+
+Admin functions:
+Staff Management
+Customer Mgt
+Booking Mgt
+Rooms Mgt
+Employees Mgt
+Reports
+
+Staff Functions:
+Customer Mgt
+Room Mgt
+Reservation Mgt
+
+
+
+Customer Functions:
+Room detail
+Reservation details
+Payment detail if any ( dummy it wont work, just the form)
+
+This web is for just a presentation
